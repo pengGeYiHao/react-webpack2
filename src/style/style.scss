@@ -1,0 +1,8 @@
+@import './mixins/sprite.scss';
+
+
+
+.box {
+  display: inline-block;
+  @include sprite($sp);
+}
